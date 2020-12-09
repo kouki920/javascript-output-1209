@@ -1,0 +1,71 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.6rem;
+  margin: 0 auto;
+}
+
+button {
+  padding: 10px;
+  background-color: #fcf8ec;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  -webkit-box-shadow: 2px 2px 0 0 #333;
+          box-shadow: 2px 2px 0 0 #333;
+  border-radius: 7px;
+}
+
+button:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: translate(2px, 2px);
+          transform: translate(2px, 2px);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.timer {
+  margin: 10px auto;
+  padding: 20px;
+  width: 200px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background-color: #79a3b1;
+}
+
+.timer .time {
+  margin: 15px auto;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 4rem;
+  border: 1px solid #333;
+  padding: 5px;
+  background-color: #fcf8ec;
+}
+
+.timer .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  width: 110px;
+}
+
+.timer .button #start__button,
+.timer .button #stop__button {
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=time.css.map */
